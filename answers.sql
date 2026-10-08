@@ -23,3 +23,6 @@ BEGIN
     );
 END;
 /
+COMMIT;
+
+DBMS_OUTPUT.PUT_LINE('Student inserted successfully');
